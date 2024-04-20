@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url('fonts/Satoshi-Regular.otf') format('opentype');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  touch-action: none;
+  -webkit-user-select: none;
+}
+
+p {
+  font-family: 'Satoshi'; 
+  font-size: 14px;
+  color: rgb(255,255,255); 
+  margin-top: 10; 
+  padding-left: 5px;
+}
+
+canvas {
+  display: block;
+}
+
+#instagramLink {
+  position: absolute; 
+  top: 10px;
+  right: 20px; 
+  font-family: 'Satoshi', Arial, sans-serif; 
+  font-size: 18px; 
+  color: #ffffff; 
+  text-decoration: none; 
+}
+
+#instagramLink:hover {
+  text-decoration: none; 
+  color:red;
+}
+
+/* 
+#control-panel h2 {
+  font-family: 'Satoshi', Arial, sans-serif;
+  font-size: 18px;
+  color: black;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0; 
+  user-select: none;
+} */
+
+.sliderStyle{
+  width: 160px;
+  -webkit-appearance: none;
+}
+
+.colorPickerStyle {
+  width: 160px;
+  height: 15px;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.colorPickerStyle::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.colorPickerStyle::-webkit-color-swatch {
+  border: none;
+}
+
+.colorPickerStyle::-webkit-color-swatch::before {
+  border: none;
+}
+
+.colorPickerStyle::-webkit-color-swatch::after {
+  border: none;
+}
+
+.sliderStyle:focus {
+  outline: none;
+}
+
+.sliderStyle::-webkit-slider-runnable-track {
+  background: #ffffff;
+  height: 3px;
+  width: 30px;
+  -webkit-appearance: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.sliderStyle::-webkit-slider-thumb {
+  width: 15px;
+  height: 15px;
+  background: #ff0000;
+  border-color:white;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -6px;
+  border-radius: 8px;
+}
+
+button {
+  font-family: 'Satoshi', Arial, sans-serif;
+  font-size: 12px;
+  border: none;
+  border-radius: 0px;
+  border-color: none;
+  padding: 4px;
+  color: black;
+  background: white;
+}
+
+button:hover {
+  background: red;
+  color: white;
+}
+
+.slider-group p {
+  margin-left: -10px;
+}
+
+#control-panel {
+  max-width: 500px; 
+  background-color:black;
+}
+

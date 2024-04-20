@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, zoom-factor=1.0, maximum-scale=1.0, user-scalable=no, user-zoom=no"
+/>
+  <title>Gradient Flower Tool</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="libraries/p5.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+</head>
+<body>
+  <a href="https://www.instagram.com/jakewelch.design/" target="_blank" id="instagramLink">jakewelch.design</a>
+
+  <div id="control-panel" style="position: absolute; top: -5px; left: 0px; z-index: 10; padding: 30px;">
+    
+    <div class="slider-group">
+      <p id="flowerRadiusSizeText" style = "user-select: none;">FLOWER RADIUS<br><br></p>
+      <!-- Slider goes here -->
+    </div>
+
+    <div class="slider-group">
+      <p id="sliceWidthText" style = "user-select: none;">FLOWER SLICE WIDTH<br><br></p>
+      <!-- Slider goes here -->
+    </div>
+
+    <div class="slider-group">
+      <p id="speedText" style = "user-select: none;">FLOWER ROTATION SPEED<br><br></p>
+      <!-- Slider goes here -->
+    </div>
+
+    <div class="slider-group">
+      <p id="gradientSpeedText" style = "user-select: none;">GRADIENT MOVEMENT SPEED<br><br></p>
+      <!-- Slider goes here -->
+    </div>
+
+    <div class="slider-group">
+      <p id="gradientMovementAngleText" style = "user-select: none;">GRADIENT MOVEMENT ANGLE<br><br></p>
+      <!-- Slider goes here -->
+    </div>
+
+    <div class="slider-group">
+      <p id="gradientAngleText" style = "user-select: none;">GRADIENT ANGLE<br><br></p>
+      <!-- Slider goes here -->
+    </div>
+
+    <div class="slider-group">
+      <p id="gradientScaleText" style = "user-select: none;">GRADIENT MOVEMENT SCALE<br><br></p>
+      <!-- Slider goes here -->
+    </div>
+
+    <div class="slider-group">
+      <p id="colorPickerPrimaryText" style = "user-select: none;">PRIMARY COLOR<br><br></p>
+      <!-- Slider goes here -->
+    </div>
+    
+    <div class="slider-group">
+      <p id="colorPickerSecondaryText" style = "user-select: none;">SECONDARY COLOR<br><br></p>
+      <!-- Slider goes here -->
+    </div>
+
+    <div class="slider-group">
+      <p id="colorPickerBackgroundText" style = "user-select: none;">BACKGROUND COLOR<br><br></p>
+      <!-- Slider goes here -->
+    </div>
+
+    <div class="slider-group">
+      <p id="saveImgButtonText" style = "user-select: none;"><br></p>
+      <!-- Slider goes here -->
+    </div>
+
+    <div class="slider-group">
+      <p id="resetButtonText" style = "user-select: none;"><br></p>
+      <!-- Slider goes here -->
+    </div>
+
+    <div id="slider-container"></div>
+</div>
+
+  <script src="sketch.js"></script>
+</body>
+</html>
+
