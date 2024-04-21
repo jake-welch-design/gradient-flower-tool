@@ -123,7 +123,24 @@ button:hover {
 }
 
 #control-panel {
-  max-width: 500px; 
-  background-color:black;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  z-index: 10;
+  padding: 30px;
+  background-color: black;
 }
 
+@media only screen and (max-width: 600px) {
+  #control-panel {
+    max-width: 50px; 
+  }
+
+  .slider-group p {
+    font-size: 12px;
+  }
+
+  .sliderStyle, .colorPickerStyle {
+    width: 80px;
+  }
+}
